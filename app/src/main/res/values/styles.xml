@@ -1,0 +1,32 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FloatingButtons" parent="Widget.Design.FloatingActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/activity_margin</item>
+        <item name="fabSize">normal</item>
+        <item name="android:scaleType">center</item>
+        <item name="borderWidth">@dimen/fab_prelollipop_border</item>
+        <item name="pressedTranslationZ">@dimen/fab_translation</item>
+    </style>
+
+    <style name="FloatingButtons.mini" parent="FloatingButtons">
+        <item name="fabSize">mini</item>
+    </style>
+
+    <style name="LapRowElement">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/lap_row_size</item>
+    </style>
+</resources>

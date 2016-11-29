@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/buttons_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add_lap_button"
+        style="@style/FloatingButtons.mini"
+        android:layout_gravity="bottom|start"
+        android:elevation="@dimen/fab_elevation"
+        app:backgroundTint="@color/colorPrimary"
+        app:rippleColor="@color/colorPrimaryDark"
+        app:srcCompat="@drawable/ic_alarm_add_white_18dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_start"
+        style="@style/FloatingButtons"
+        android:layout_gravity="bottom|center_horizontal"
+        android:elevation="@dimen/fab_elevation"
+        app:backgroundTint="@color/colorPrimary"
+        app:rippleColor="@color/colorPrimaryDark"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_stop"
+        style="@style/FloatingButtons.mini"
+        android:layout_gravity="bottom|end"
+        android:elevation="@dimen/fab_elevation"
+        app:backgroundTint="@color/colorAccent"
+        app:rippleColor="@color/colorAccentDark"
+        app:srcCompat="@drawable/ic_stop_white_18dp" />
+</android.support.design.widget.CoordinatorLayout>

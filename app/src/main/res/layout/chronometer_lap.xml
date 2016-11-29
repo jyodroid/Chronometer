@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginEnd="@dimen/activity_margin"
+    android:layout_marginStart="@dimen/activity_margin"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/lap_number"
+        style="@style/LapRowElement"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/lap_time"
+        style="@style/LapRowElement"/>
+
+</LinearLayout>
